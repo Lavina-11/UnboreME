@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    box-sizing: border-box;
+}
+
+.carousel-inner img {
+    padding-top: 0;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.heading1 {
+    margin-top: 50px;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    margin-left: 40px;
+}
+
+.left_underline {
+    width: 70%;
+    height: 10px;
+    margin-left: 40px;
+}
+
+.card-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 10px; */
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.card {
+    width: 320px;
+    height: 400px;
+    border: 1px solid black;
+    border-width: 0;
+    margin: 10px 50px;
+
+}
+
+.card-body {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: rgba(119, 136, 153, 0.48);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    visibility: hidden;
+}
+
+.card:hover .card-body {
+    visibility: visible;
+}
+
+.card-heading {
+    color: black;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.card-content {
+    color: black;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 40px 0;
+    font-weight: 200;
+}
+
+.card-btn {
+    color: white;
+    background-color: rgba(129, 44, 165, 0.68);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.item {
+    width: 100%;
+    height: 550px;  
+    max-width: 820px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    z-index: 1000;
+    margin-top: 60px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, .4);
+}
+
+.contact {
+    background: rgba(255, 255, 255, 0.41);
+}
+
+.submit-form {
+    background: rgb(129, 44, 165);
+}
+
+.first-text {
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 40px;
+    color: rgb(129, 44, 165);
+}
+
+.image {
+    margin-left: 30px;
+    height: 320px;
+    width: 350px;
+}
+
+.social-media {
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.contact_us {
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+.contact_us ul li {
+    padding-left: 15px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.second-text {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.social-media i {
+    color: white;
+    background-color: rgb(129, 44, 165);
+}
+
+.social-media i a {
+    padding: 5px;
+    border-radius: 5px;
+    transition: .3s;
+
+}
+
+.social-media i:hover {
+    color: rgb(187, 141, 207);
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+.third-text {
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding-top: 10px;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+form {
+    padding: 0 50px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.input-box {
+    height: 40px;
+    width: 70%;
+    margin: 30px 0;
+    position: relative;
+}
+
+.input {
+    width: 350px;
+    height: 100%;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    padding-left: 10px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    transition: .3s;
+}
+
+.input-box .input:focus~label,
+.input-box .input:valid~label {
+    top: -1px;
+    left: 10px;
+    background: rgb(129, 44, 165);
+    font-weight: 500;
+    font-size: 12px;
+    padding: 5px;
+}
+
+textarea.input {
+    resize: none;
+    min-height: 150px;
+    overflow: auto;
+}
+
+.btn1 {
+    position: relative;
+    top: 100px;
+    background: white;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 45px;
+    width: 30%;
+    font-size: 16px;
+    color: rgb(129, 44, 165);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+/* Activities css starts here */
+
